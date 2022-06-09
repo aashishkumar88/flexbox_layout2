@@ -1,0 +1,320 @@
+ * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .nav {
+        width: 20%;
+        height: 100vh;
+        padding: 25px;
+        background-color: rgb(171, 197, 144);
+      }
+      .main {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+      }
+      .container {
+        width: 80%;
+      }
+      .header {
+        height: 20vh;
+        padding: 25px;
+        background-color: rgb(81, 227, 81);
+      }
+      .cont1 {
+        height: 80vh;
+        display: flex;
+      }
+      .cont2 {
+        width: 80%;
+      }
+      .article {
+        height: 60vh;
+        padding: 25px;
+        background-color: white;
+      }
+      .footer {
+        height: 20vh;
+        padding: 25px;
+        background-color: rgb(81, 227, 81);
+      }
+      .aside {
+        width: 20%;
+        padding: 25px;
+        background-color: rgb(228, 255, 200);
+      }
+      @media screen and (max-width: 360px) {
+        .nav {
+          width: 100%;
+          height: 20vh;
+          padding: 12px;
+          font-size: 10px;
+        }
+        .main {
+          display: block;
+        }
+        .container {
+          width: 100%;
+          height: 100vh;
+        }
+        .header {
+          height: 20vh;
+          padding: 12px;
+
+          font-size: 10px;
+        }
+        .cont1 {
+          height: 80vh;
+          display: block;
+        }
+        .cont2 {
+          width: 100%;
+        }
+        .article {
+          height: 30vh;
+          padding: 12px;
+
+          font-size: 10px;
+        }
+        .footer {
+          height: 20vh;
+          padding: 12px;
+
+          font-size: 10px;
+        }
+        .aside {
+          height: 30vh;
+          width: 100%;
+          padding: 12px;
+
+          font-size: 10px;
+        }
+      }
+      @media screen and (min-width: 361px) and (max-width: 480px) {
+        .nav {
+          width: 100%;
+          height: 20vh;
+          padding: 12px;
+          font-size: 12px;
+        }
+        .main {
+          display: block;
+        }
+        .container {
+          width: 100%;
+          height: 100vh;
+        }
+        .header {
+          height: 20vh;
+          padding: 12px;
+
+          font-size: 12px;
+        }
+        .cont1 {
+          height: 80vh;
+          display: block;
+        }
+        .cont2 {
+          width: 100%;
+        }
+        .article {
+          height: 30vh;
+          padding: 12px;
+
+          font-size: 12px;
+        }
+        .footer {
+          height: 20vh;
+          padding: 12px;
+
+          font-size: 12px;
+        }
+        .aside {
+          height: 30vh;
+          width: 100%;
+          padding: 12px;
+
+          font-size: 12px;
+        }
+      }
+      @media screen and (min-width: 481px) and (max-width: 768px) {
+        .nav {
+          width: 20%;
+          height: 100vh;
+          padding: 12px;
+          font-size: 12px;
+        }
+        .main {
+          display: flex;
+        }
+        .container {
+          width: 80%;
+          height: 100vh;
+        }
+        .header {
+          height: 20vh;
+          padding: 12px;
+          font-size: 12px;
+        }
+        .cont1 {
+          height: 100vh;
+          display: flex;
+        }
+        .cont2 {
+          width: 100%;
+        }
+        .article {
+          height: 60vh;
+
+          padding: 12px;
+          font-size: 12px;
+        }
+        .footer {
+          height: 20vh;
+
+          padding: 12px;
+          font-size: 12px;
+        }
+        .aside {
+          height: 80vh;
+          width: 30%;
+          padding: 12px;
+          font-size: 12px;
+        }
+      }
+      @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .nav {
+          width: 20%;
+          height: 100vh;
+          padding: 15px;
+          font-size: 13px;
+        }
+        .main {
+          display: flex;
+        }
+        .container {
+          width: 80%;
+          height: 100vh;
+        }
+        .header {
+          height: 20vh;
+          padding: 15px;
+          font-size: 13px;
+        }
+        .cont1 {
+          height: 100vh;
+          display: flex;
+        }
+        .cont2 {
+          width: 100%;
+        }
+        .article {
+          height: 60vh;
+
+          padding: 15px;
+          font-size: 13px;
+        }
+        .footer {
+          height: 20vh;
+
+          padding: 15px;
+          font-size: 13px;
+        }
+        .aside {
+          height: 80vh;
+          width: 30%;
+          padding: 15px;
+          font-size: 13px;
+        }
+      }
+      @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .nav {
+          width: 20%;
+          height: 100vh;
+          padding: 18px;
+          font-size: 14px;
+        }
+        .main {
+          display: flex;
+        }
+        .container {
+          width: 80%;
+          height: 100vh;
+        }
+        .header {
+          height: 20vh;
+          padding: 18px;
+          font-size: 14px;
+        }
+        .cont1 {
+          height: 100vh;
+          display: flex;
+        }
+        .cont2 {
+          width: 100%;
+        }
+        .article {
+          height: 60vh;
+
+          padding: 18px;
+          font-size: 14px;
+        }
+        .footer {
+          height: 20vh;
+
+          padding: 18px;
+          font-size: 14px;
+        }
+        .aside {
+          height: 80vh;
+          width: 30%;
+          padding: 18px;
+          font-size: 14px;
+        }
+      }
+       @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .nav {
+          width: 20%;
+          height: 100vh;
+          padding: 20px;
+          font-size: 14px;
+        }
+        .main {
+          display: flex;
+        }
+        .container {
+          width: 80%;
+          height: 100vh;
+        }
+        .header {
+          height: 20vh;
+          padding: 20px;
+          font-size: 14px;
+        }
+        .cont1 {
+          height: 100vh;
+          display: flex;
+        }
+        .cont2 {
+          width: 100%;
+        }
+        .article {
+          height: 60vh;
+
+          padding: 20px;
+          font-size: 14px;
+        }
+        .footer {
+          height: 20vh;
+
+          padding: 20px;
+          font-size: 14px;
+        }
+        .aside {
+          height: 80vh;
+          width: 30%;
+          padding: 20px;
+          font-size: 14px;
+        }
+      }
